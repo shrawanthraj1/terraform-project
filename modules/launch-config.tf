@@ -1,7 +1,11 @@
 resource "aws_launch_template" "examplelc" {
   
   name          = "example-l"
+<<<<<<< HEAD
   image_id      = var.ami # Specify the AMI ID
+=======
+  image_id      = "ami-0780837dd83465d73" # Specify the AMI ID
+>>>>>>> a11a58a6effe34a5876c619806b37afe36e7209d
   instance_type = "t2.micro"     # Specify the instance type
 
     network_interfaces {
